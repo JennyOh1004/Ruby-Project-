@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Actor&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
 .clear{
 	clear: both;
@@ -31,6 +32,10 @@
   padding-top: 26px;
 }
 
+.about{
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;	
+}
+
 .links{
 	padding-top: 26px;
 }
@@ -39,7 +44,8 @@
 	color: #FF6753;
 	font-size: 25px;
 	border-bottom: 1px solid #fff;
-	font-family: 'amikoregular', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	/* font-family: 'amikoregular', sans-serif; */
 	font-weight: bold;
 }
 
@@ -52,22 +58,35 @@ hr{
 }
 
 h1 {
-  font-family: 'amikoregular', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  /*font-family: 'amikoregular', sans-serif;*/
   font-weight: bold;
   letter-spacing: 1px;
-  font-size: 48px;
+  font-size: 40px;
 }
 
 h2 {
-  font-family: 'amikoregular', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  /*font-family: 'amikoregular', sans-serif;*/
   font-weight: 300;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   font-size: 25px;
+}
+
+h2 span{
+	color: #dddddd;
+	font-family: 'Roboto Mono', monospace;
+	/*font-family: 'amikoregular', sans-serif;*/
+}
+
+h2 span{
+	color: #dddddd;
 }
 
 .next-quote{
 	color: #f84342;
-	font-family: 'amikoregular', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	/*font-family: 'amikoregular', sans-serif;*/
 	font-size: 20px;
 }
 
@@ -80,4 +99,19 @@ h2 {
 
 .logo:hover{
 	text-decoration: none;
+}
+
+.modal {
+	font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+::selection {
+  background-color: #f84342;
+}
+
+
+@media (max-width: 750px){
+	.footer-blurb{
+		text-align: left;
+	}
 }
